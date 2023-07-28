@@ -243,12 +243,12 @@ public class Lab2P2_DanielElvir {
                                                 System.out.println("De que turno es? (Matutino/Despertino)");
                                                 String turno = read.nextLine();
                                                 if (turno.equalsIgnoreCase(mat) && contarMeseros(turno) >= 4) {
-                                                    System.out.println("No se pueden agregar más chefs matutinos");
+                                                    System.out.println("No se pueden agregar más meseros matutinos");
                                                     break;
                                                 }
 
                                                 if (turno.equalsIgnoreCase(vesp) && contarMeseros(turno) >= 4) {
-                                                    System.out.println("No se pueden agregar más chefs vespertinos");
+                                                    System.out.println("No se pueden agregar más meseros vespertinos");
                                                     break;
                                                 }
                                                 System.out.println("Cual es el sueldo del mesero?");
@@ -687,3 +687,4 @@ public class Lab2P2_DanielElvir {
         return precioF;
     }
 }
+//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
